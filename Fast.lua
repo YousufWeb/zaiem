@@ -11584,7 +11584,6 @@ local BotName = {
     'اذا ناديتني ب اسمي راح ارد',
      'مو فله ترا'
     '!!!!',
-    'اسمي '..NamesBot..' ياخي',
 }
 return bot.sendPhoto(msg.chat_id, msg.id, photo.photos[1].sizes[#photo.photos[1].sizes].photo.remote.id,BotName[math.random(#BotName)], "md", true, nil, nil, nil, nil, nil, nil, nil, nil, reply_markup )
 else
@@ -11602,7 +11601,7 @@ local BotName = {
   'اذا ناديتني ب اسمي راح ارد',
    'مو فله ترا'
   '!!!!',
-  'اسمي '..NamesBot..' ياخي',
+
 }
 return send(msg_chat_id,msg_id,BotName[math.random(#BotName)],"md") 
 end 
@@ -11621,7 +11620,7 @@ local BotName = {
   'اذا ناديتني ب اسمي راح ارد',
    'مو فله ترا'
   '!!!!',
-  'اسمي '..NamesBot..' ياخي',
+
 }
 return send(msg_chat_id,msg_id,BotName[math.random(#BotName)],"md") 
 end
@@ -16223,7 +16222,7 @@ return bot.sendText(msg_chat_id,msg_id,Get_Is_Id,"md",true)
 end
 else
 if photo.total_count > 0 then
-local ban_ns ='\n*⟨•💖▸ 𝑵𝑨𝑴𝑬 •⟩ '..Name..'\n⟨•💖▸ 𝑼𝑺𝑬𝑹 •⟩ '..UserInfousername..'\n⟨•💖▸ 𝑰𝑫 •⟩ '..UserId..'\n⟨•💖▸ ??𝑻𝑨 •⟩ '..RinkBot..'\n⟨•💖▸ 𝑷𝑯𝑶𝑻𝑶 •⟩ '..TotalPhoto..'\n⟨•💖▸ 𝑴𝑺𝑮 •⟩ '..TotalMsg..'\n⟨•💖▸ 𝑻𝑭𝑨𝑷𝑳𝑲 •⟩ '..TotalMsgT..'\n⟨•💖▸ 𝑩𝑰𝑶 •⟩ '..Bio..'*'
+local ban_ns ='\n*⟨•💖▸ 𝑵𝑨𝑴𝑬 •⟩ '..Name..'\n⟨•💖▸ 𝑼𝑺𝑬𝑹 •⟩ '..UserInfousername..'\n⟨•💖▸ 𝑰𝑫 •⟩ '..UserId..'\n⟨•💖▸ 𝑺𝑻𝑨 •⟩ '..RinkBot..'\n⟨•💖▸ 𝑷𝑯𝑶𝑻𝑶 •⟩ '..TotalPhoto..'\n⟨•💖▸ 𝑴𝑺𝑮 •⟩ '..TotalMsg..'\n⟨•💖▸ 𝑻𝑭𝑨𝑷𝑳𝑲 •⟩ '..TotalMsgT..'\n⟨•💖▸ 𝑩𝑰𝑶 •⟩ '..Bio..'*'
 data = {} 
 data.inline_keyboard = {
 {
